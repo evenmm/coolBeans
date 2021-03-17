@@ -8,7 +8,7 @@ def test_add():
 def substract(a, b):
     return a + b
 
-#def test_substract():
-#    assert substract(2, 3) == -1
+def test_substract():
+    assert substract(2, 3) == -1
 
 
