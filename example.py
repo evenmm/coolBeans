@@ -6,7 +6,7 @@ def test_add():
     assert add('space', 'ship') == 'spaceship'
 
 def substract(a, b):
-    return a + b
+    return a - b
 
 def test_substract():
     assert abs(substract(2, 3) - (-1)) < 1e-10
