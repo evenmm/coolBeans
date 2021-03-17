@@ -9,6 +9,6 @@ def substract(a, b):
     return a + b
 
 def test_substract():
-    assert substract(2, 3) == -1
+    assert abs(substract(2, 3) - (-1)) < 1e-10
 
 
